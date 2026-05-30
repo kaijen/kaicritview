@@ -1,0 +1,8 @@
+# MkDocs build output
+/site/
+
+# Node
+node_modules/
+
+# Packaged extension
+*.vsix
