@@ -1,0 +1,26 @@
+{
+  "name": "kaicritview",
+  "displayName": "CriticMarkup Preview",
+  "description": "Renders CriticMarkup in VSCode's built-in Markdown preview.",
+  "version": "0.1.0",
+  "publisher": "kaijen",
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.70.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "keywords": [
+    "markdown",
+    "criticmarkup",
+    "preview"
+  ],
+  "main": "./extension.js",
+  "contributes": {
+    "markdown.markdownItPlugins": true,
+    "markdown.previewStyles": [
+      "./critic.css"
+    ]
+  }
+}
