@@ -5,6 +5,14 @@
   "version": "0.1.0",
   "publisher": "kaijen",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kaijen/kaicritview.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kaijen/kaicritview/issues"
+  },
+  "homepage": "https://github.com/kaijen/kaicritview#readme",
   "engines": {
     "vscode": "^1.70.0"
   },
@@ -17,6 +25,9 @@
     "preview"
   ],
   "main": "./extension.js",
+  "activationEvents": [
+    "onLanguage:markdown"
+  ],
   "contributes": {
     "markdown.markdownItPlugins": true,
     "markdown.previewStyles": [
